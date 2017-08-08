@@ -6,8 +6,6 @@ imitation_game = media.Movie('Imitation Game',
     'https://upload.wikimedia.org/wikipedia/en/5/5e/The_Imitation_Game_poster.jpg',
     'https://www.youtube.com/watch?v=S5CjKEFb-sM')
 
-#print (imitation_game.storyline)
-
 sully = media.Movie ('Sully',
     'A movie about capt.Cheskey making an emergency landing in New Yorks Hudson River',
     'https://upload.wikimedia.org/wikipedia/en/8/82/Sully_xxlg.jpeg',
@@ -33,5 +31,3 @@ the_prestige = media.Movie ('The Prestige','A movie about an illusion gone horri
 
 movies = [imitation_game, sully, get_out, the_martian, unbroken, the_prestige]
 fresh_tomatoes.open_movies_page(movies)
-#print (sully.storyline)
-#sully.show_trailer()s
