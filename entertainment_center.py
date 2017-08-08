@@ -1,6 +1,8 @@
 import media
 import fresh_tomatoes
 
+# Movies objects
+
 imitation_game = media.Movie('Imitation Game',
     'A movie about mathematics Alan cracking Nazi codes',
     'https://upload.wikimedia.org/wikipedia/en/5/5e/The_Imitation_Game_poster.jpg',
@@ -28,6 +30,8 @@ unbroken = media.Movie ('Unbroken','A movie about Zamperini an oplymic runner',
 the_prestige = media.Movie ('The Prestige','A movie about an illusion gone horribly wrong',
     'https://upload.wikimedia.org/wikipedia/en/d/d2/Prestige_poster.jpg',
     'https://www.youtube.com/watch?v=o4gHCmTQDVI')
+
+# List or array of movies as an input for the open_movies_page function
 
 movies = [imitation_game, sully, get_out, the_martian, unbroken, the_prestige]
 fresh_tomatoes.open_movies_page(movies)
