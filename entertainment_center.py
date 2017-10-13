@@ -1,37 +1,47 @@
 import media
 import fresh_tomatoes
 
+
 # Movies objects
 
+
 imitation_game = media.Movie('Imitation Game',
-    'A movie about mathematics Alan cracking Nazi codes',
-    'https://upload.wikimedia.org/wikipedia/en/5/5e/The_Imitation_Game_poster.jpg',
-    'https://www.youtube.com/watch?v=S5CjKEFb-sM')
+                             'A movie about Alan cracking Nazi codes',
+                             'https://goo.gl/KQX8L3',
+                             'https://goo.gl/d8EB44')
 
-sully = media.Movie ('Sully',
-    'A movie about capt.Cheskey making an emergency landing in New Yorks Hudson River',
-    'https://upload.wikimedia.org/wikipedia/en/8/82/Sully_xxlg.jpeg',
-    'https://www.youtube.com/watch?v=mjKEXxO2KNE')
+sully = media.Movie('Sully',
+                    'A movie about landing in the Hudson River',
+                    'https://goo.gl/X8P647',
+                    'https://goo.gl/ohWpiM')
 
-get_out = media.Movie ('Get Out',
-    'A movie about a boy meeting his girlfriend family',
-    'https://upload.wikimedia.org/wikipedia/en/e/eb/Teaser_poster_for_2017_film_Get_Out.png',
-    'https://www.youtube.com/watch?v=DzfpyUB60YY')
+get_out = media.Movie('Get Out',
+                      'A movie about a boy meeting his girlfriend family',
+                      'https://goo.gl/3ekHHi',
+                      'https://goo.gl/abiKgw')
 
-the_martian = media.Movie ('The Martian',
-    'A movie about leaving an astronauts behind in Mars',
-    'https://upload.wikimedia.org/wikipedia/en/c/cd/The_Martian_film_poster.jpg',
-    'https://www.youtube.com/watch?v=ej3ioOneTy8')
+the_martian = media.Movie('The Martian',
+                          'A movie about leaving an astronauts behind in Mars',
+                          'https://goo.gl/NCoiMv',
+                          'https://goo.gl/M3Sj21')
 
-unbroken = media.Movie ('Unbroken','A movie about Zamperini an oplymic runner',
-    'https://upload.wikimedia.org/wikipedia/en/7/76/Unbroken_poster.jpg',
-    'https://www.youtube.com/watch?v=XrjJbl7kRrI')
+unbroken = media.Movie('Unbroken',
+                       'A movie about Zamperini an oplymic runner',
+                       'https://goo.gl/4hYRkq',
+                       'https://goo.gl/dmSTTq')
 
-the_prestige = media.Movie ('The Prestige','A movie about an illusion gone horribly wrong',
-    'https://upload.wikimedia.org/wikipedia/en/d/d2/Prestige_poster.jpg',
-    'https://www.youtube.com/watch?v=o4gHCmTQDVI')
+the_prestige = media.Movie('The Prestige',
+                           'A movie about an illusion gone horribly wrong',
+                           'https://goo.gl/vyDsdQ',
+                           'https://goo.gl/v81Gpt')
 
 # List or array of movies as an input for the open_movies_page function
 
-movies = [imitation_game, sully, get_out, the_martian, unbroken, the_prestige]
+movies = [imitation_game,
+          sully,
+          get_out,
+          the_martian,
+          unbroken,
+          the_prestige]
+
 fresh_tomatoes.open_movies_page(movies)
