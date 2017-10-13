@@ -28,9 +28,9 @@ webbrowser, os, re<br />
  #### From inside the folder <br /> 
  clone or download the folder to your local machaine 
  then ```Click``` on 
- ``` html
- fresh_tomatoes.html``` to lanuch the application to your browser<br /> 
+ 
+ ```fresh_tomatoes.html``` to lanuch the application to your browser<br /> 
 
-### To intract with the Application<br /> 
+### To intract with the Application <br /> 
 
 ```Click``` on the box art imagery to watch the movie trailer<br />
