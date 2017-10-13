@@ -4,10 +4,11 @@ A script for a server-side code to store a list of favorite movies, including bo
 
 ## Contents 
 
-project files (entertainment_center.py, 
-				Media.py
-				fresh_tomatoes.py)<br />
-Templates files (fresh_tomatoes.html)<br />
+#### project files <br />  
+(entertainment_center.py,Media.py,fresh_tomatoes.py)<br />
+
+#### Templates files <br />
+(fresh_tomatoes.html)<br />
 
 ## Getting Started
 
@@ -22,8 +23,9 @@ webbrowser, os, re<br />
 ### How To Run The Application
 
 #### Using the Terminal <br />
- Type ```python
- python entertainment_center.py```<br />
+ Type ```
+ python entertainment_center.py
+ ```<br />
 
  #### From inside the folder <br /> 
  clone or download the folder to your local machaine 
