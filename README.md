@@ -23,9 +23,7 @@ webbrowser, os, re<br />
 ### How To Run The Application
 
 #### Using the Terminal <br />
- Type ```
- python entertainment_center.py
- ```<br />
+ Type ```python entertainment_center.py```<br />
 
  #### From inside the folder <br /> 
  clone or download the folder to your local machaine 
